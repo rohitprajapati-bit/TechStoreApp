@@ -8,8 +8,6 @@ A Flutter-based e-commerce application that loads product data from local JSON f
 
 - [Features](#features)
 - [Technology Stack](#technology-stack)
-- [Architecture](#architecture)
-- [State Management](#state-management)
 - [Pages and Functionality](#pages-and-functionality)
 - [Setup](#setup)
 - [Screenshots](#screenshots)
@@ -30,20 +28,6 @@ A Flutter-based e-commerce application that loads product data from local JSON f
 - **Language**: Dart
 - **State Management**: Provider
 - **Data Source**: Local JSON for products and product details.
-
-## Architecture
-
-The app follows the MVVM (Model-View-ViewModel) architecture to ensure a clean separation of concerns between UI and business logic.
-
-### Key Components:
-
-- **Model**: Manages data from JSON files (products and details).
-- **View**: UI components like product listings, login, and details screens.
-- **ViewModel**: Connects the Model with the View, handling user actions and data processing.
-
-## State Management
-
-The app uses the **Provider** package for state management, ensuring a reactive UI that updates based on changes in data.
 
 ## Pages and Functionality
 
